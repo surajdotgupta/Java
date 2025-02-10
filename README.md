@@ -28,5 +28,13 @@
     Arrays.sort(myNumbers);
     System.out.println(Arrays.toString(myNumbers));
 
+// Multi-demensional array
+     int[][] numbers = new int[2][3];
+    numbers[0][1] = 5;
+    System.out.println(Arrays.deepToString(numbers));
+
+    int[][] myNumbers = { {1,2,3}, {4,5,6}};
+    System.out.println(Arrays.deepToString(myNumbers));
+
 
     
