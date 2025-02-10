@@ -36,5 +36,8 @@
     int[][] myNumbers = { {1,2,3}, {4,5,6}};
     System.out.println(Arrays.deepToString(myNumbers));
 
+----------- Constants(final vairable)------------
+final float pi = 3.14F;
+    System.out.println(pi);
 
     
