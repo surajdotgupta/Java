@@ -42,4 +42,12 @@
 final float pi = 3.14F;
     System.out.println(pi);
 
+
+------ Explicit casting--------
+double x = 1.5;
+    int y= (int)x+2;
+    System.out.println(y); -- 3
+
+
+
     
