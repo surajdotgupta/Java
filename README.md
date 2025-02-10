@@ -1,5 +1,7 @@
 # Java
 
+--sout then tab will print  System.out.println in Intellij
+
 ------ Java Primitive Types-----------
     int myAge = 30;
     int herAge = myAge;
