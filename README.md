@@ -2,7 +2,7 @@
 
 --sout then tab will print  System.out.println in Intellij
 
------- Java Primitive Types-----------
+    ------ Java Primitive Types-----------
     int myAge = 30;
     int herAge = myAge;
     long viewsCount = 3_123_466_789L;
@@ -15,8 +15,7 @@
     //System.out.println(now);
 
 
------- Arrays-----------
-    
+------ Arrays-----------   
 //Array Declaration - Type1
     int [] numbers = new int[5];
     numbers[0] = 10;
