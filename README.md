@@ -47,6 +47,25 @@ double x = 1.5;
     int y= (int)x+2;
     System.out.println(y); -- 3
 
+-------- Arithmatic Operators-------------
 
+    int result = Math.round(5.58F);
+    //System.out.println(result); //6
 
-    
+    int findFloor = (int)Math.floor(5.58F);
+    //System.out.println(findFloor); //5
+
+    int findCeil = (int)Math.ceil(5.58F);
+    //System.out.println(findCeil); //6
+
+    int findMax = (int)Math.max(5,10);
+    //System.out.println(findMax); //10
+
+    double findRandom = Math.random();
+    //System.out.println(findRandom); //0.9819413464234525
+
+    int findRand = (int) Math.round(Math.random()*100);
+    //System.out.println(findRand); //52
+
+    int findRand1 = (int) (Math.random()*100);
+    System.out.println(findRand1); //78
