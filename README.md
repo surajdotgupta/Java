@@ -96,3 +96,22 @@ double x = 1.5;
     System.out.println("Your name is :" + name); //Your name is :suraj gupta
 
     
+---- Mortgage Calculator-------------
+//It didn't work
+
+   System.out.print("Principal:");
+    int iPrincipal = scanner.nextInt();
+    System.out.print("Period:");
+    int iPeriod = scanner.nextInt();
+    System.out.print("Interest:");
+    double iRate = scanner.nextDouble();
+
+    //System.out.println("Principal" + iPrincipal);
+    //System.out.println("Load Period" + iPeriod);
+    //System.out.println("Rate of Interest" + iRate);
+
+    double jRateCal = Math.pow((1+ 0.47),(30*12));
+
+    double iMortgage = (iPrincipal * (iRate * jRateCal)) / (jRateCal - 1);
+
+    System.out.println("Mortgage:" + iMortgage);
