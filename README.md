@@ -69,3 +69,15 @@ double x = 1.5;
 
     int findRand1 = (int) (Math.random()*100);
     System.out.println(findRand1); //78
+
+
+    ------ Number Format($$,%)----------------
+
+     NumberFormat iCurrency = NumberFormat.getCurrencyInstance();
+    String result = iCurrency.format(1234567.8965);
+    System.out.println(result); //$1,234,567.90
+
+    NumberFormat iPercent = NumberFormat.getPercentInstance();
+    String pResult = iPercent.format(0.5);
+    System.out.println(pResult); //50%
+
