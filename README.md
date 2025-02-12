@@ -81,3 +81,18 @@ double x = 1.5;
     String pResult = iPercent.format(0.5);
     System.out.println(pResult); //50%
 
+
+    ---------- Inputs------------
+
+    // Byte inpit
+    Scanner scanner = new Scanner(System.in);
+    System.out.print("Enter your age:");
+    byte age = scanner.nextByte();
+    System.out.println("Your age is :" + age);
+    
+    Scanner scanner = new Scanner(System.in);
+    System.out.print("Name: ");
+    String name = scanner.nextLine();
+    System.out.println("Your name is :" + name); //Your name is :suraj gupta
+
+    
